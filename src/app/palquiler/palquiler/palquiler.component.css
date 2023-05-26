@@ -1,0 +1,77 @@
+.scroll-clientes {
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+    overflow-y: scroll;
+    width: auto;
+  }
+  
+  .scroll-clientes::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .scroll-clientes::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .scroll-clientes::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 0.25em;
+  }
+  
+  .scroll-clientes::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  .linea-compra {
+    list-style-type: none;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 40px;
+    border: 2px solid #7f1bbc;
+    border-radius: 20px;
+  }
+  
+  .producto-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgProd {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .detalle-producto {
+    font-size: 14px;
+  }
+  
+  .nombre {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .desc {
+    margin-bottom: 5px;
+  }
+  
+  .idProd {
+    margin-bottom: 5px;
+  }
+  
+  .precio {
+    margin-bottom: 5px;
+  }
+  
+  .fechComp {
+    margin-bottom: 5px;
+    color: #888888;
+    font-style: italic;
+  }
+  
+
+  h1{
+    color: white;
+  }

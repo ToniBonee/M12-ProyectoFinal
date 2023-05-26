@@ -1,0 +1,24 @@
+<div class="scroll-clientes">
+    <div *ngFor="let factura of facturas">
+      <h1 class="titulo-factura">Productos</h1>
+      <div *ngIf="factura.id_cliente === id_cliente">
+        <div *ngFor="let linea of factura.lineas_facturas">
+          <div *ngIf="linea.productos.tipos_productos">
+            <div *ngIf="linea.productos.tipos_productos.id_tipo_producto === 1" class="linea-compra">
+              <div class="producto-info">
+                <img class="imgProd" src="{{ linea.productos.imagen }}" alt="Imagen del producto">
+                <div class="detalle-producto">
+                  <div class="nombre">{{ linea.productos.nombre }}</div>
+                  <div class="desc">Descripción: {{ linea.productos.descripcion }}</div>
+                  <div class="idProd">ID del producto: {{ linea.productos.id_producto }}</div>
+                  <div class="precio">Precio: {{ linea.productos.precio }}</div>
+                  <div class="fechComp">Fecha de Compra: {{ linea.fecha_creacion }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

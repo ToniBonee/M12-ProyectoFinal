@@ -1,0 +1,21 @@
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 70vw;
+  }
+
+  .imagen {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 15vw;
+  }
+  
